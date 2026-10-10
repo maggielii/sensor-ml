@@ -7,9 +7,11 @@ The notebook includes the full machine learning workflow.
 ## How to run it
 
 1. Set up the virtual environment and install libraries:
-   python3 -m venv .venv
-   source .venv/bin/activate
-   pip install numpy pandas scikit-learn matplotlib ipykernel
+```
+python3 -m venv .venv
+source .venv/bin/activate
+pip install numpy pandas scikit-learn matplotlib ipykernel
+```
 2. Open `main.ipynb`, select the `.venv` kernel, and run all cells.
 
 ### Simulated data
